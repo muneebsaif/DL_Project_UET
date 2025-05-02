@@ -47,6 +47,8 @@ def detect_person(frame):
 	return frame
 
 cap=cv2.VideoCapture(path)
+output_path="./video/output.mp4"
+out = cv2.VideoWriter(output_path, cv2.VideoWriter_fourcc(*'XVID'), 30, (640, 480))
 
 while True:
 	ret,frame=cap.read()
@@ -55,9 +57,11 @@ while True:
 		continue
 
 	frame=detect_person(frame)
+	out.write(cv2.resize(frame,(640, 480)))
 	cv2.imshow("frame",frame)
 	key=cv2.waitKey(1)
 	if key == 27:  # Press 'Esc' to exit
 		break
 cv2.destroyAllWindows()
 cap.release()
+out.release()
