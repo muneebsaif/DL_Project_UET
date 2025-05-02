@@ -9,26 +9,6 @@ A deep learning-based system for real-time **helmet detection** using a two-stag
 - **Muneeb ur Rehman Khan** – (2024-MSDS-115)  
 - **Rehman Kabir** – (2024-MSDS-120)  
 - **Shamroz Ali** – (2024-MSDS-122)
----
-## 📁 Project Structure
-
-
-├── Code/
-│ ├── classification.py # CNN classifier for helmet vs no-helmet
-│ ├── train.py # Training YOLOv11 model
-│ ├── main.py # Inference and real-time detection
-│ ├── yolo11n.pt # YOLOv11 trained weights (helmet/person)
-│ ├── runs/train/ # YOLO training results & visualizations
-│ │ └── weights/best.pt # Best YOLO model weights
-│ └── video/ # Input/output demo videos
-│ ├── construction1.mp4 # Sample video input
-│ └── output_resized.mp4 # Processed output video
-├── Documentation/
-│ └── Personal Protective Equipment Detection.pdf
-├── Slides/
-│ └── Personal Protective Equipment Detection.pptx
-
-
 
 ---
 
