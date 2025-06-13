@@ -7,8 +7,6 @@ A deep learning-based system for real-time **helmet detection** using a two-stag
 ## 🧑‍💻 Group Members
 
 - **Muneeb ur Rehman Khan** – (2024-MSDS-115)  
-- **Rehman Kabir** – (2024-MSDS-120)  
-- **Shamroz Ali** – (2024-MSDS-122)
 
 ---
 
